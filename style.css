@@ -1,0 +1,187 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+}
+
+/*body{
+	font-size: 4.26rem;
+}*/
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   overflow: hidden;
+   font-size: 0.64rem;
+/*   font-size: 24px;*/
+   	fill:white;
+}
+
+a{
+	text-decoration: none;
+}
+header{
+	position: relative;
+/*	height: 50px;*/
+	height: 1.33rem;
+	background: url(./src/foot.jpg);
+}
+header > .icon {
+/*	font-size: 24px;*/
+	font-size: 0.64rem;
+	position: absolute;
+/*	left: 25px;
+	top: 15px;*/
+	left:0.667rem;
+	top: 0.4rem;
+	fill:white;
+}
+
+main{
+	position: absolute;
+/*	top: 50px;
+	bottom: 50px;*/
+	top: 1.33rem;
+	bottom: 1.33rem;
+	z-index:20;
+	width: 100%;
+	background: url(./src/background.jpg);
+	background-size: cover;
+}
+
+
+
+main .music-massage{
+	display: inline-block;
+    position: absolute;
+/*    top: 10px;
+    left: 10px;*/
+    top: 0.267rem;
+    left: 0.267rem;
+    color: white;
+}
+main .music-massage p{
+	cursor: default;
+/*    padding: 8px;*/
+	padding: 0.213rem;
+}
+main .musicname{
+	font-weight: bold;
+/*	font-size: 20px;*/
+	font-size: 0.5333rem;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden;
+/*	width: 300px;*/
+	width: 8rem;
+}
+main .musicer{
+	font-weight: bold;
+/*	font-size: 14px;*/
+  font-size: 0.373rem;
+	width: 8rem;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden;
+}
+
+
+main .record{
+  font-size: 0.373rem;
+/*	margin-top: 4px;*/
+	margin-top: 0.107rem;
+}
+
+main > .share-love {
+	position: absolute;
+/*	right: 30px;
+	bottom: 70px;*/
+	right: 0.8rem;
+	bottom: 1.867rem;
+
+}
+
+.share-love > .icon:last-child{
+/*	padding-left: 20px;
+	font-size: 30px;*/
+	padding-left: 0.53rem;
+	font-size: 0.8rem;
+}
+
+footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+/*	height: 50px;*/
+  height: 1.333rem;
+	width: 100%;
+	background: url(./src/foot.jpg);
+	position: absolute;
+	bottom: 0;
+
+}
+
+footer   .icon {
+	padding-left: 0.427rem;
+}
+
+
+
+.background .music-lyric{
+  position:absolute;
+  top: 2.4rem;
+	width: 100%;
+	height: 50vh;
+	padding: 0.53rem 0;
+}
+.background .music-lyric .lyric-view{
+	height: 50vh;
+	overflow: hidden;
+}
+.background .music-lyric ul{
+	position: relative;
+	transition: all 1s;
+}
+.lyric li{
+	padding: 0.16rem 0 0.107rem 0;
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 0.373rem;
+	transition: all 1s;
+}
+.lyric li.active {
+  font-size: 0.347rem;
+  color: #ffffff;
+}
+.basebar{
+	display: block;
+	border:none;
+	width: 8rem;
+    left: 50%;
+    bottom: 0.8rem;
+    transform: translate(-50%);
+	border-radius: 0.1333rem;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+}
+.basebar .progressbar{
+	display: block;
+	border:none;
+	width: 0%;
+	height: 0.267rem;
+	border-radius: 0.1333rem;
+	background-color: #f30;
+}
+
+#love.becomered{
+  fill: red;
+}
+
+#lyric{
+	font-size: 0.8rem;
+	fill: yellow;
+}
+
+.fillColor{
+	fill: yellow;
+}

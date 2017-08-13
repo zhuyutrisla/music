@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Security-Policy" content="block-all-mixed-content">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<meta charset="UTF-8">
+	<meta name="referrer" content="no-referrer">
+	<title>music player</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="//at.alicdn.com/t/font_383161_cu3ej53w3766r.js"></script>
+	<script src="https://cdn.bootcss.com/jquery/2.2.1/jquery.js"></script>
+</head>
+<body>
+	 <div class="wrapper">
+	 		<header>
+				<svg class="icon close-page">
+				    <use xlink:href="#icon-guanbi"></use>
+				</svg>	 			
+	 		</header>
+	 		<main>
+	       <div class="background">
+	          <div class="music-lyric" style="display:block">
+	              <div class="lyric-view">
+	                  <ul class="lyric"></ul>
+	              </div>
+	          </div>
+	       </div>             
+	 			<audio src=""></audio>  
+                <div class="music-massage">
+                    <p class="musicname" ></p>
+                    <p class="musicer" ></p>
+                    <p class="record"  data-id=""></p>
+                </div>              
+	 			<div class="share-love">
+	 				<a href="http://service.weibo.com/share/share.php" target="new">
+						<svg class="icon">
+						    <use xlink:href="#icon-fenxiang"></use>
+						</svg>	 					
+	 				</a>		 		
+					<svg id="love" class="icon love ">
+					    <use xlink:href="#icon-aixin"></use>
+					</svg>		 				
+	 			</div>
+              <span class="basebar">
+                  <span class="progressbar"></span>
+              </span> 			
+	 		</main>
+	 		<footer>
+
+				<svg class="icon start fillColor" >
+				    <use xlink:href="#icon-kaishi"></use>
+				</svg>	 		
+				<svg class="icon pause">
+				    <use xlink:href="#icon-zanting"></use>
+				</svg>
+				<svg class="icon next">
+				    <use xlink:href="#icon-xiayishou"></use>
+				</svg>		
+				<div >
+					<svg class="icon change">
+					    <use xlink:href="#icon-hf_qiehuanpindao"></use>
+					</svg>			
+					<svg class="icon" id="lyric">
+					    <use xlink:href="#icon-geci"></use>
+					</svg>						
+				</div>																																		 				
+	 		</footer>
+	 </div>	
+	 <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
