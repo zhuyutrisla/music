@@ -13,7 +13,19 @@ html{
 
 document.write(`<style>${ css }</style>`)
 
-
+var url = document.querySelector('audio').src;
+var audio = new Audio();
+audio.src = url;
+var playPromise = audio.play();
+if (playPromise !== undefined) {
+      playPromise.then(function() {
+         audio.addEventListener('timeupdate',function() {
+            console.log(audio.currentTime, audio.duration);
+         }, true);
+      }).catch(function(error) {
+            console.error('Failed to start your sound, retrying.');
+      });
+}
 
 var music = $("audio")[0];
 var lyricArr = [];
