@@ -151,7 +151,7 @@ footer   .icon {
 }
 .lyric li.active {
   font-size: 0.347rem;
-  color: #ffffff;
+  color: red;
 }
 .basebar{
 	display: block;
