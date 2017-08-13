@@ -25,7 +25,9 @@ $('.close-page').on('click',function(){
 
 
 $('.start').on('click',function(){
+	if (music.paused) {
     musicPlay()
+    }
     $('.start').addClass('fillColor').siblings().removeClass('fillColor')
 })
 
