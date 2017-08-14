@@ -92,7 +92,7 @@ function pause(){
 }
 function getChannel(){
   $.ajax({
-    url: '//api.jirengu.com/fm/getChannels.php',
+    url: 'https://jirenguapi.applinzi.com/fm/getChannels.php',
     type: 'GET',
     dataType: 'json'
   }).done(function(response){
