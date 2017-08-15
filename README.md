@@ -11,11 +11,11 @@
 
 ** 如果要在电脑端打开，以chrome为例，可以打开开发者工具切换至移动端预览,并刷新页面(重新获取页面宽度)  **
 
-
+### 效果图
 ![预览图片](./src/AS%40PPXFF79V8%5BN%5D%25%7D6J%5BEVE.png)
 
 
-[预览地址](http://htmlpreview.github.io/?https://github.com/zhuyutrisla/music/blob/master/index.html)
+### [预览地址](http://htmlpreview.github.io/?https://github.com/zhuyutrisla/music/blob/master/index.html)
 
 
-[预览地址2](http://js.jirengu.com/suheh)
+### [预览地址2](http://js.jirengu.com/suheh)
